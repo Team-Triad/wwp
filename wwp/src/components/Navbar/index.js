@@ -16,7 +16,6 @@ const Navbar = () => {
         <NavLink to='/'>
             <img src={logo} alt='logo' />
         </NavLink>
-        <Bars />
         <NavMenu>
           <NavLink to='/about' activeStyle>
             About
@@ -36,6 +35,7 @@ const Navbar = () => {
         <NavBtn>
           <NavBtnLink to='/signin'>Sign In</NavBtnLink>
         </NavBtn>
+        <Bars />
       </Nav>
     </>
   );
