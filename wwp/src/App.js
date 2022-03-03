@@ -12,7 +12,7 @@ function App() {
         <h1>
           We Are
           <br />
-          Coming Soon
+          Vanakkam Thoza
         </h1>
         <Timer />
         <Optin />
