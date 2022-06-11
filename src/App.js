@@ -16,7 +16,7 @@ import User_Profile from './pages/users_home'
 
 const App= () => {
   return (
-    <Router>
+    <Router basename="/wwp">
      <Navbar />
      <main>
        <Routes>
