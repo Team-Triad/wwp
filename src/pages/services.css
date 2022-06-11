@@ -1,0 +1,42 @@
+.total-services{
+    background: #e9e9e9;
+    padding-bottom: 30px;
+}
+.sub-category{
+    padding: 4px 20px;
+}
+#title{
+    text-align: center;
+    color:rgba(166, 43, 43, 0.938);;
+    font-family: 'Reggae One', cursive;
+}
+#description{
+    text-align: center;
+    color: rgba(166, 43, 43, 0.938);;
+}
+#survey-form{
+    padding: 50px 0px 50px 0px;
+    background-color:rgba(166, 43, 43, 0.938);
+    border-radius: 12%;
+    margin: auto;
+    max-width: 600px;
+    font-family: 'Amiri', serif;
+    color: whitesmoke;
+}
+.input-element{
+    display: block;
+    width: 95%;
+    padding:7px;
+    color: crimson;
+    font-style: italic;
+}
+#submit{
+    display: block;
+    width: 30%;
+    margin:auto;
+    color: yellow;
+    background-color:blue;
+    padding: 7px;
+    font-family: 'Reggae One', cursive;
+    margin-top: 25px;
+}

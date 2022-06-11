@@ -1,0 +1,28 @@
+.total-cards{
+    display:flex;
+    flex-wrap:wrap;
+    min-height: 90vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/home_bg.webp");
+}
+.tota-cards{
+    display:flex;
+    flex-wrap:wrap;
+    min-height: 10vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.single-card{
+    max-width:400px;
+    margin: 20px 10px;
+    backdrop-filter: blur(16px) saturate(180%) !important; 
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(209, 213, 219, 0.3) !important;
+}
