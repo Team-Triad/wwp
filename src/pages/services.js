@@ -31,14 +31,14 @@ const Services = () => {
               DocId: docRef.id
           })
           alert("Data Successfully Submitted");
-          window.location.href='/'
+          window.location.href='./'
       })
       .catch((error) => {
           // eslint-disable-next-line default-case
           switch (error.code){
               case 'permission-denied':
                   alert("Login Required.\nPlease enter the login credintials");
-                  window.location.href='/signup'
+                  window.location.href='./signup'
           }
       });
   }

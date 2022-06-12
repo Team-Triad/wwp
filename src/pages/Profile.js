@@ -26,7 +26,7 @@ const Profile = () => {
       .then((docRef) => {
           window.sessionStorage.setItem("MobileNo", mobile);
           alert("Profile Successfully Submitted");
-          window.location.href='/Sign'
+          window.location.href='./Sign'
       })
   }
      else{
@@ -50,7 +50,7 @@ const Profile = () => {
       .then((docRef) => {
           window.sessionStorage.setItem("MobileNo", mobile);
           alert("Profile Successfully Submitted");
-          window.location.href='/Sign'
+          window.location.href='./Sign'
       })
   }
      }

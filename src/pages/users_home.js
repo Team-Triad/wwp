@@ -15,7 +15,7 @@ const UserHome = () => {
     });
     const handleLogout = () => {
     Firebase.auth().signOut();
-    window.location.href='/sign'
+    window.location.href='./sign'
   };
     const Fetchdata = ()=>{
       db.collection("Works").where("Id","==",uid).onSnapshot((querySnapShot) => {
@@ -29,7 +29,7 @@ const UserHome = () => {
     return(
         <section className='UserHome'> 
         <nav>
-            <button onClick={(e) =>{e.preventDefault();window.location.href='/Profile'}}>Edit Profile</button>
+            <button onClick={(e) =>{e.preventDefault();window.location.href='./Profile'}}>Edit Profile</button>
             <button onClick={handleLogout}>Logout</button>
         </nav>
         <h1>Welcome :)</h1>

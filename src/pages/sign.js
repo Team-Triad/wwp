@@ -74,7 +74,7 @@ const Sign = () => {
   return (
     <div>
       {user ? (
-        window.location.href='/User_profile'
+        window.location.href='./User_profile'
       ) : (
          <Signin email={email} setEmail={setEmail} password={password} setPassword={setPassword} handleLogin={handleLogin}
       handleSignup={handleSignup} hasAccount={hasAccount} setHasAccount={setHasAccount}
